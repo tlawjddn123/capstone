@@ -1,0 +1,21 @@
+@charset "EUC-KR";
+#wrap{
+	width:530px;
+	margin-left:auto; 
+	margin-right:auto;
+	text-align:center;
+}
+	
+table{
+	margin-left:auto; 
+	margin-right:auto;
+	border:1px solid black
+}
+		
+td{
+	border:1px solid white
+}
+		
+#title{
+	background-color:white
+}

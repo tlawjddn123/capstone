@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+.container-wrapper{
+	margin-top: 80px;
+	text-align:center;
+}
+.container{
+	margin-top: 80px;
+	text-align:center;
+	padding:auto;
+}
+.form-group{
+	margin-left:300;
+	margin-right:300;
+	text-align:center;
+	
+}
+.container1{
+	margin-top: 80px;
+	text-align:center;
+	line-heigth:1em;
+	position:relative;
+}

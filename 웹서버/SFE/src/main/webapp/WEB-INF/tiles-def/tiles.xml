@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+	<definition name="base"
+		template="/WEB-INF/templates/layout.jsp">
+		<put-attribute name="title" value="SFE homepage" />
+		<put-attribute name="menu"
+			value="/WEB-INF/templates/menu.jsp" />
+		<put-attribute name="footer"
+			value="/WEB-INF/templates/footer.jsp" />
+	</definition>
+
+	<definition name="home" extends="base">
+		<put-attribute name="title" value="My SFE homepage" />
+		<put-attribute name="body"
+			value="/WEB-INF/views/home.jsp" />
+	</definition>
+
+	<definition name="fireSensors" extends="base">
+		<put-attribute name="title"
+			value="My fireSensors homepage" />
+		<put-attribute name="body"
+			value="/WEB-INF/views/fireSensors.jsp" />
+	</definition>
+
+	<definition name="admin" extends="base">
+		<put-attribute name="title" value="My admin homepage" />
+		<put-attribute name="body"
+			value="/WEB-INF/views/admin.jsp" />
+	</definition>
+
+
+	<definition name="login" extends="base">
+		<put-attribute name="title" value="login Page" />
+		<put-attribute name="body"
+			value="/WEB-INF/views/login.jsp" />
+	</definition>
+
+	<definition name="location" extends="base">
+		<put-attribute name="title" value="location Page" />
+		<put-attribute name="body"
+			value="/WEB-INF/views/location.jsp"/>
+	</definition>
+
+	<definition name="empty"
+		template="/WEB-INF/templates/empty.jsp">
+	</definition>
+	
+	<definition name="sendFCM"
+		template="/WEB-INF/templates/empty.jsp">
+	</definition>
+	
+	<definition name="fireReset"
+		template="/WEB-INF/templates/empty.jsp">
+	</definition>
+	
+	<definition name="randomLocation"
+		template="/WEB-INF/templates/empty.jsp">
+	</definition>
+
+</tiles-definitions>
