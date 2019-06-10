@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "641314754108",
+    "firebase_url": "https://sfefirebaseproject-17a73.firebaseio.com",
+    "project_id": "sfefirebaseproject-17a73",
+    "storage_bucket": "sfefirebaseproject-17a73.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:641314754108:android:fab7f436d4c4f29c",
+        "android_client_info": {
+          "package_name": "com.hansung.ac.kr.sfe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "641314754108-afai8l9vrutejsd8a7a54k4mqjbv86r8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hansung.ac.kr.sfe",
+            "certificate_hash": "3e2beda3d83e72dda68d3ca00b54d816f1653e6e"
+          }
+        },
+        {
+          "client_id": "641314754108-vgc872rv6d0uvf5860863jg1ijtmb9bn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMhcBrPHSvNdMPUvMo2gZ5XYEWIHqwbWk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "641314754108-vgc872rv6d0uvf5860863jg1ijtmb9bn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
